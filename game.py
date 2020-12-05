@@ -1,3 +1,8 @@
+from queue import Queue
+import matplotlib.pyplot as plt
+import matplotlib.colors as colors
+
+
 class Reversi():
     def __init__(self, board_size=8):
         self.n = board_size
@@ -322,3 +327,7 @@ class Reversi():
             else:
                 break
         print("Thanks for playing!")
+
+
+game = Reversi()
+game.start_game()
