@@ -330,4 +330,4 @@ class Reversi():
 
 
 game = Reversi()
-game.start_game()
+game.start()
